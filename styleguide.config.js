@@ -4,7 +4,9 @@ const path = require('path')
 module.exports = {
   title: 'React Bulma UI',
   require: [
-    'bulma/css/bulma.css'
+    'bulma/css/bulma.css',
+    'bulma-pageloader/dist/bulma-pageloader.min.css',
+    'bulma-slider/dist/bulma-slider.min.css'
   ],
   template: 'src/index.html',
   components: 'src/components/**/[A-Z]*.js',
